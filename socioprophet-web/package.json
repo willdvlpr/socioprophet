@@ -1,0 +1,38 @@
+{
+  "name": "socioprophet",
+  "version": "1.0.0",
+  "description": "Boilerplate for React apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "author": "Will",
+  "license": "MIT",
+  "dependencies": {
+    "@carbon/icons-react": "^10.5.0",
+    "@material-ui/core": "^4.3.3",
+    "carbon-components": "^10.5.1",
+    "carbon-components-react": "^7.5.1",
+    "carbon-icons": "^7.0.7",
+    "css-loader": "^3.2.0",
+    "javascript-terminal": "^1.0.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-hamburger-menu": "^1.1.1",
+    "react-terminal-component": "^1.4.1",
+    "style-loader": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}

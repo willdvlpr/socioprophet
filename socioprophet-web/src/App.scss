@@ -1,0 +1,14 @@
+@import 'index.scss';
+
+.drawer-open {
+  margin-left: 50%;
+}
+
+.drawer-close {
+  margin-left: 50%;
+}
+
+$feature-flags: (
+  components-x: true,
+  ui-shell: true,
+);
